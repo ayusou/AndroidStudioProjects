@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/redPasti"
+        android:icon="@drawable/roja"
+        android:title="RED PILL"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/bluePasti"
+        android:icon="@drawable/azul"
+        android:title="BLUE PILL"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/matrix"
+        android:title="EXIT (COBARDE)"
+        app:showAsAction="never" />
+</menu>
